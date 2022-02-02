@@ -9,7 +9,7 @@ Feature: User Successful Registration
     And  I verify the App Logo exists
     
     Examples:
-    |username				|password			|
+    |username			|password	  |
     |standard_user	|secret_sauce | 
    
    Scenario Outline: UnSuccessful Login
@@ -20,5 +20,5 @@ Feature: User Successful Registration
    
     
     Examples:  
-    |username				  |password			|Error Message                    |
+    |username			|password	  |Error Message                    |
     |locked_out_user	|secret_sauce |Sorry, this user has been banned.|	
